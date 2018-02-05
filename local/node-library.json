@@ -1,3 +1,8 @@
 {
-  "user": null
+  "user": {
+    "classify": [],
+    "modify": true,
+    "name": "user",
+    "title": "自定义控件"
+  }
 }

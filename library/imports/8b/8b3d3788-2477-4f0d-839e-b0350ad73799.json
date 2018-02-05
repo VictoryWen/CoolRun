@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "paoku 00193",
+    "texture": "938ecb2f-925e-4d9e-940b-8fb1133d2697",
+    "atlas": "90600b66-41ee-4b37-9d8f-ac725fb32d72",
+    "rect": [
+      2,
+      75,
+      117,
+      103
+    ],
+    "offset": [
+      -2,
+      1
+    ],
+    "originalSize": [
+      123,
+      105
+    ]
+  }
+}

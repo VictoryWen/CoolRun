@@ -1,0 +1,20 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "GameUI.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "slice01_01": {
+      "__uuid__": "c4d5db5a-a494-43ea-8426-0f3fc5200cc2"
+    },
+    "slice02_02": {
+      "__uuid__": "a5774bbe-b773-4e38-bc37-d0e9c4d27625"
+    },
+    "slice23_23": {
+      "__uuid__": "e1589310-1fa9-4e77-b041-aa48cbb77855"
+    },
+    "slice34_34": {
+      "__uuid__": "1861775d-b9de-44f6-b416-ca768fc5f7dd"
+    }
+  }
+}

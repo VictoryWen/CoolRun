@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "Hero.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "paoku 00188": {
+      "__uuid__": "46971795-d679-44c4-83ae-8dec8cee5673"
+    },
+    "paoku 00189": {
+      "__uuid__": "6c09317f-7761-474b-a71d-fa4c4bbb91bd"
+    },
+    "paoku 00190": {
+      "__uuid__": "7b98c463-0ffe-4897-ab3d-55f5e5776e6c"
+    },
+    "paoku 00191": {
+      "__uuid__": "5ca03670-c0ae-4ed1-9912-d280da0ddae7"
+    },
+    "paoku 00192": {
+      "__uuid__": "928393fc-6d33-49ee-91ba-ab6e3628f24c"
+    },
+    "paoku 00193": {
+      "__uuid__": "8b3d3788-2477-4f0d-839e-b0350ad73799"
+    },
+    "paoku 00194": {
+      "__uuid__": "d1e54565-b3dc-4673-a5dd-a771748c9e8b"
+    },
+    "paoku 00195": {
+      "__uuid__": "bf900110-723b-4bcc-bc57-e0440303733e"
+    },
+    "paoku 00196": {
+      "__uuid__": "23c8245d-d99d-408b-b5e6-9da5994f3598"
+    },
+    "paoku 00197": {
+      "__uuid__": "ee10c628-01c2-4081-9b48-73e3f2f75852"
+    },
+    "paoku 00198": {
+      "__uuid__": "a047fb92-de52-485f-a902-10f7143fa42b"
+    },
+    "paoku 00199": {
+      "__uuid__": "c57c218e-5f47-473a-9bf7-1a7fffbc769a"
+    },
+    "slice109_@": {
+      "__uuid__": "da941386-1d15-4aa7-977c-478805dad31a"
+    },
+    "slice110_@": {
+      "__uuid__": "5311a2fa-ce09-4fc5-b9fe-b45c4659eb06"
+    },
+    "slice111_@": {
+      "__uuid__": "795710a1-bd26-41c1-a499-8b11b3284f4d"
+    },
+    "slice112_@": {
+      "__uuid__": "eaff1a5a-2484-431c-8b6d-fe51a65b220d"
+    },
+    "slice113_@": {
+      "__uuid__": "0d56cb22-a1fb-4ac7-bc3a-a22af0b38989"
+    },
+    "slice86_86": {
+      "__uuid__": "b8288f30-6363-40b1-ae4e-d6796f268c04"
+    },
+    "slice94_94": {
+      "__uuid__": "8809e4f1-cdf7-41b6-92ad-01369a872945"
+    }
+  }
+}

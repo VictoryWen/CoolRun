@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GameUI",
+    "texture": "23c07795-4184-4fdc-bba5-ac8c1963bda1",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      241,
+      306
+    ],
+    "offset": [
+      -5.5,
+      101
+    ],
+    "originalSize": [
+      256,
+      512
+    ]
+  }
+}

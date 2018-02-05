@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "BG2.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "1": {
+      "__uuid__": "1d10cca7-b91c-4518-875b-0915383c6bc5"
+    },
+    "2": {
+      "__uuid__": "4c140384-2353-4d27-b8fe-827fe55e3c92"
+    },
+    "3": {
+      "__uuid__": "7197b81d-64fa-4586-b8e0-b6ca657892d7"
+    },
+    "4": {
+      "__uuid__": "74b022d2-9f3b-487a-8faf-0cbc296b1984"
+    },
+    "5": {
+      "__uuid__": "b7bc5dba-47f2-4b3c-a342-a24837a6a299"
+    }
+  }
+}
