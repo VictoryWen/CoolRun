@@ -19,24 +19,61 @@ cc.Class({
         // },
         // ...
 
-        m_Hero: cc.Animation
+        m_Hero: cc.Animation,
+        m_BtRoll: cc.Button
 
     },
 
     // use this for initialization
     onLoad: function onLoad() {
         cc.log('Hello World');
-        this.m_Hero.play('Run');
+
+        this.myHeroPlay('Run');
+        this.m_BtRoll.node.on(cc.Node.EventType.TOUCH_START, this.touchStart, this);
+        this.m_BtRoll.node.on(cc.Node.EventType.TOUCH_END, this.touchEnd, this);
+        this.m_BtRoll.node.on(cc.Node.EventType.TOUCH_CANCEL, this.touchEnd, this);
     },
 
-    onButtonJump: function onButtonJump(target, data) {
-        cc.log("onButtonJump" + data);
-        this.m_Hero.play('Jump');
+    touchStart: function touchStart() {
+        cc.log('touchStart');
+        if (this.m_Hero.currentClip.name == 'Jump') {
+            return;
+        }
+        this.myHeroPlay('Roll');
     },
 
-    onButtonRoll: function onButtonRoll(target, data) {
-        cc.log("onButtonRoll" + data);
-        this.m_Hero.play('Roll');
+    touchEnd: function touchEnd() {
+        cc.log('touchEnd');
+        if (this.m_Hero.currentClip.name == 'Jump') {
+            return;
+        }
+        this.myHeroPlay('Run');
+    },
+
+    callBackDownOver: function callBackDownOver() {
+        cc.log('callBackDownOver');
+        // var anim = this.getComponent(cc.Animation);
+        this.myHeroPlay('Run');
+    },
+    onAnimationChange: function onAnimationChange(target, data) {
+        cc.log("onAnimationChange " + data);
+
+        if (data == 'Jump') {
+            var moveUp = cc.moveTo(1, -92, 42).easing(cc.easeCubicActionOut());
+            var moveDown = cc.moveTo(1, -92, -52).easing(cc.easeCubicActionIn());
+            var callBack = cc.callFunc(this.callBackDownOver, this, this);
+            var seq = cc.sequence(moveUp, moveDown, callBack);
+            this.m_Hero.node.runAction(seq);
+        }
+        this.myHeroPlay(data);
+    },
+    myHeroPlay: function myHeroPlay(playName) {
+        if (playName == 'Roll') {
+            this.m_Hero.node.setPosition(-92, -57);
+        } else if (playName == 'Run') {
+            this.m_Hero.node.setPosition(-92, -49);
+        }
+        this.m_Hero.play(playName);
     }
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {

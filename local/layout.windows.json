@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 35,
-      "y": 23,
+      "x": 59,
+      "y": 107,
       "width": 1440,
       "height": 832,
       "layout": {
@@ -75,8 +75,8 @@
         "type": "dock-h"
       },
       "panels": [
-        "console",
         "inspector",
+        "console",
         "hierarchy",
         "assets",
         "scene",
